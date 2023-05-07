@@ -163,6 +163,9 @@ footer {
 }
 
 @media only screen and (max-width:600px)  {
+    body {
+        height: 90vh;
+    }
     .main {
         width: 15rem;
         height: 28rem;
@@ -243,30 +246,29 @@ h1 {
 
 .svg-icon {
     position: relative;
-    top: 0.15rem;
-    padding-right: 0.1rem;
+    padding-right: 0.2rem;
+
 }
 
 h2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--cyan-color);
 }
 
 .ethtym p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--softblue-color);
 }
 
 hr {
     color: var(--line-color);
     border-bottom: none;
-    opacity: 50%;
+    opacity: 25%;
 }
 
 .crtby {
     display: flex;
-    gap: 0.5rem;
 }
 
 .crtby img {
